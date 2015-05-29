@@ -1,0 +1,179 @@
+/* media queries
+********************************
+	tablets min-width: 				768px;
+	desktops min-width: 			992px;
+	large desktops min-width: 		1200px;
+*/
+
+/* resets
+*************************************/
+@font-face {
+	font-family: "allura";
+	src: url("../css/fonts/allura/Allura-Regular.otf");
+}
+@font-face {
+	font-family: "alex-brush";
+	src: url("../css/fonts/alex-brush/AlexBrush-Regular.ttf");
+}
+@font-face {
+	font-family: "existence";
+	src: url("../css/fonts/Existence-Light/Existence-Light.otf");
+}
+@font-face {
+	font-family: "qwigley";
+	src: url("../css/fonts/Qwigley/Qwigley-Regular.ttf");
+}
+@font-face {
+	font-family: "sansation";
+	src: url("../css/fonts/sansation/Sansation-Light.ttf");
+}
+* {
+	font-weight: 100;
+}
+
+/* common
+*************************************/
+html,
+body {
+	padding: 0; margin: 0;
+	height: 100%;
+	position: relative;
+	min-width: 410px;
+	overflow: auto;
+}
+/* stand-alone
+*************************************/
+body {
+	background: #c7d0d5;
+}
+main #page {
+	width: 100%;
+	min-height: 600px; 
+	background: rgba(255,255,255,0.9);
+	border-radius: 2px;
+	box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.4);
+	padding: 70px 5px 30px;
+	margin: 20px auto;
+	max-width: 1000px;
+}
+@media screen and (min-width: 768px) {
+	main #page {
+		padding: 70px 5px 10px;
+	}
+}
+.section {
+	background: rgba(18,52,86,0.1);
+	/*border: solid 3px white;*/
+	padding: 5px;
+	margin: 5px 0;
+}
+.section-title {
+	font-family: qwigley;
+	font-size: 3em;
+	margin: 0; padding: 0;
+}
+.company,
+.skills {
+	margin: 15px 0;
+	background: rgba(255,255,255,0.5);
+	padding: 10px;
+}
+.company-info {
+	font-size: 20pt;
+	font-family: sansation;
+}
+.job-title,
+.skill-list-title,
+.school {
+	font-family: sansation;
+	font-size: 15pt;
+}
+.duties,
+.skill-list,
+.degree {
+	list-style: none;
+	margin: 5px;
+	padding: 0 5px;
+	font-family: existence;
+	border-left: solid 1px #000;
+}
+.duties li,
+.skill-list li {
+	background: rgba(192, 192, 192,0.3);
+	margin: 5px;
+	padding: 15px;
+	/*box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.5);*/
+}
+.duties li:hover,
+.skill-list li:hover {
+	border-right: solid 1px red;
+}
+.school {
+
+}
+/* cpanel
+*************************************/
+/* cv page
+*************************************/
+main #page section header {
+	min-height: 100px;
+	text-align: center;
+	margin: 0 0 20px 0;
+}
+main #page section header div#portrait {
+	background: url("https://scontent-dfw1-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/315769_4142245886937_1904146690_n.jpg?oh=f05c6bc4f2b29134ee86851d55c03002&oe=56051F1A") center center no-repeat;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+main #page section header h1 {
+	font-family: qwigley;
+	font-size: 5em;
+	width: 80%;
+	margin: 0 auto;
+}
+main #page section header ul {
+	padding: 0 80px;
+	margin: 0 auto;
+	list-style: none;
+	overflow: auto;
+	font-family: sansation;
+}
+@media screen and (min-width: 768px) {
+	main #page section header ul {
+		padding: 0 0 10px 0;
+	}
+}
+main #page section header ul li {
+	padding: 0 5px;
+	margin: 0;
+	display: inline-block;
+}
+@media screen and (min-width: 768px) {
+	main #page section header ul li {
+		border-right: solid 1px #000;	
+	}
+}
+main #page section header ul li:last-child {
+	border-right: none;
+}
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
+/*
+*************************************/
